@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <input type="text" id="bedrag" />
+    <select id="ratio">
+          <option value="1.10">Van euro naar dollar</option>
+          <option value="0.91">Van dollar naar euro</option>
+          <option value="0.85">Van euro naar pond</option>
+          <option value="1.17">Van pond naar euro</option>
+        </select>
+    <input type="button" onclick="converteerBedrag()" value="Converteer" />
+    <p id="output"></p>
+
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
